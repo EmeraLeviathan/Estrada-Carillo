@@ -1,4 +1,4 @@
-/* Reset default browser styles */
+
 body, h3, table, th, td {
     margin: 0;
     padding: 0;
@@ -7,19 +7,19 @@ body, h3, table, th, td {
 }
 img {
             display: block;
-            margin: auto; /* This will center the image */
+            margin: auto; /* This will center the image unless inside that dang div box */
         }
 /* Body Styles */
 body {
     font-family: Arial;
     margin-bottom: 10%;
-    background-color: #66e0ff; /* Light blue background */
+    background-color: #66e0ff; /* Light blue background for nurses yes */
 }
 
 /* Main Styles */
 main {
     margin: 0 auto;
-    max-width: 800px; /* Adjust as needed */
+    max-width: 800px; 
     padding: 20px;
 }
 #toggleButton {
@@ -35,20 +35,20 @@ main {
 }
 .floating-image-left {
     float: left;
-    margin-right: 20px; /* Adjust margin as needed */
+    margin-right: 20px; 
 }
 
 .floating-image-right {
     float: right;
-    margin-left: 20px; /* Adjust margin as needed */
+    margin-left: 20px; 
 }
 .box2 {
 	text-align: left;
 }
 /* Container Styles */
 .container {
-    border: 2px solid #ccc; /* Light gray border */
-    background-color: #fff; /* White background */
+    border: 2px solid #ccc; 
+    background-color: #fff; 
     text-align: center;
     border-radius: 5px;
     padding: 20px;
@@ -57,15 +57,15 @@ main {
 
 /* Box Styles */
 .box {
-    background-color: #fff; /* White background */
+    background-color: #fff; /* 0's for black background */
     text-align: center;
     border-radius: 10px;  
     padding: 20px;
     margin-bottom: 20px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  
 }
 .box1 {
-	background-color: #fff; /* White background */
+	background-color: #fff; /* White na naman */
     text-align: left;
     border-radius: 10px;  
     padding: 20px;
@@ -86,7 +86,7 @@ h1, h3 {
 /* Navigation Styles */
 .navbar ul {
     list-style-type: none;
-    background-color: #333; /* Dark background */
+    background-color: #333; 
     padding: 10px;
     margin: 10px;
     overflow: hidden;
@@ -94,7 +94,7 @@ h1, h3 {
 }
 
 .navbar a {
-    color: #fff; /* White text */
+    color: #fff; /* White text for dark bg */
     text-decoration: none;
     padding: 15px;
     display: block;
@@ -118,7 +118,7 @@ th, td {
 }
 
 th {
-    background-color: #f2f2f2; /* Light gray background */
+    background-color: #f2f2f2; 
     font-weight: bold;
 }
 
@@ -129,11 +129,11 @@ tr:nth-child(even) {
     display: inline-block;
     justify-content: center;
     align-items: center;
-    margin-top: 20px; /* Adjust as needed */
+    margin-top: 20px; 
 }
 
 .gallery-item {
-    width: 200px; /* Adjust as needed */
+    width: 200px; 
     margin: 10px;
 }
 
@@ -141,20 +141,20 @@ tr:nth-child(even) {
     width: 100%;
     height: auto;
     border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
     transition: transform 0.3s ease-in-out;
 }
 
 .gallery-item img:hover {
-    transform: scale(1.05); /* Zoom effect on hover */
+    transform: scale(1.05); 
 }
 
 
 /* Footer Styles */
 footer {
     text-align: center;
-    background-color: #007bff; /* Dark blue background */
-    color: #fff; /* White text */
+    background-color: #007bff; 
+    color: #fff;
     padding: 20px;
     border-radius: 5px;
     margin-top: 20px;
